@@ -22,4 +22,5 @@ RUN go install github.com/ffuf/ffuf@latest
 RUN go install github.com/lc/gau/v2/cmd/gau@latest
 
 # wordlists
-RUN git clone https://github.com/danielmiessler/SecLists.git
+RUN mkdir words
+RUN curl https://raw.githubusercontent.com/danielmiessler/RobotsDisallowed/master/top1000.txt > words/robots1k.txt
