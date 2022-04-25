@@ -5,4 +5,4 @@ Dockerfiles with my tools to deploy on cloud services
 A lightweight image for kubernetes automation  
 
 # hackbox
-More fully featured image, with vim, bash, the seclists repo, and an entrypoint  
+More fully featured image, with vim, bash, the seclists repo, and an entrypoint to ssh into and use  
